@@ -103,8 +103,8 @@ Tekma je dvoboj med dvema robotoma. Njun cilj je v omejenem času zbrati čim ve
 
 Trajanje tekme: do 3 minute
 Pridobivanje točk:
-  -vsaka smet v pravilnem košu, ekipi prinese točko, če je smet v napačnem košu ne pridobiš     točke,
-  -vsaka školjka na odlagališču odšteje 2 točki.
+  -vsaka smet v pravilnem košu, ekipi prinese 2 točki, če je smet v napačnem košu izgubiš 1 točko,
+  -vsaka školjka na odlagališču odšteje 3 točke.
   -podatka o vrsti smeti robot ne dobi iz strežnika in ga mora pridobiti sam (uporaba barvnega   tipala, s poskušanjem)
   da je smet v košu, štejemo takrat, ko je središče značke znotraj odlagališča,
   v primeru, da sledilnik ne prepozna značke, o točkovanju odloča sodnik. 
