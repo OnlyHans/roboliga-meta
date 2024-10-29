@@ -70,17 +70,6 @@ ko se tekma prične (Start the game).
 
 ![Poligon-plaža](https://github.com/OnlyHans/roboliga-meta/blob/master/poligon.png)
 
-      
-### Ruda
-
-Na površini poligona se nahajajo kosi rude, ki so predstavljeni z lesenimi kvadri:
-
-- velikost (D x Š x V): 10 cm x 10 cm x 8 cm,
-- na vrhu je značka aruco za kamero,
-- kos rude, ki vsebuje unobtainij, je zelene barve, jalovina je rjave barve,
-- strežnik vsakemu kosu rude določi naključno identifikacijsko številko (`id`),
-  - ko se ustvari nova tekma (*Create a new game*) in
-  - ko se tekma prične (*Start the game*).
 
 ### Robot čistilec
 Robota čistilca sestavite iz kock Lego, ki so prisotne v kompletu, in napišete program, ki se bo izvajal na njem. Pri oblikovanju morate biti iznajdljivi, da konstrukcijo robota čim bolj prilagodite izzivu. Ob tem morate upoštevati naslednje omejitve:
@@ -103,8 +92,8 @@ Tekma je dvoboj med dvema robotoma. Njun cilj je v omejenem času zbrati čim ve
 
 Trajanje tekme: do 3 minute
 Pridobivanje točk:
-  -vsaka smet v pravilnem košu, ekipi prinese točko, če je smet v napačnem košu ne pridobiš     točke,
-  -vsaka školjka na odlagališču odšteje 2 točki.
+  -vsaka smet v pravilnem košu, ekipi prinese 2 točki, če je smet v napačnem košu izgubiš 1 točko,
+  -vsaka školjka na odlagališču odšteje 3 točke.
   -podatka o vrsti smeti robot ne dobi iz strežnika in ga mora pridobiti sam (uporaba barvnega   tipala, s poskušanjem)
   da je smet v košu, štejemo takrat, ko je središče značke znotraj odlagališča,
   v primeru, da sledilnik ne prepozna značke, o točkovanju odloča sodnik. 
